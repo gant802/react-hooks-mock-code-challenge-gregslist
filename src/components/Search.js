@@ -3,9 +3,7 @@ import { SearchContext } from "./SearchState";
 
 function Search() {
   const { search, setSearch } = useContext(SearchContext);
-  console.log(search)
   
-
   function handleSubmit(e) {
     e.preventDefault();
     console.log("submitted");

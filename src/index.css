@@ -37,7 +37,7 @@ header h1 {
 }
 
 .searchbar input {
-  width: 90%;
+  width: 60%;
   font-size: 1rem;
   height: 2rem;
   margin-right: 0.5rem;
@@ -129,4 +129,28 @@ main {
 .card .details strong {
   font-family: serif;
   font-size: 1rem;
+}
+
+.itemFormContainer {
+  display: block;
+  padding: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+#addItemButton {
+  margin-left: 95px;
+  width: 100px;
+}
+
+#newItemForm {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+#newItemForm label {
+  display: flex;
+  flex-direction: column;
 }
